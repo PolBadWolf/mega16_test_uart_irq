@@ -153,7 +153,16 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Uart.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <None Include="IncFile1.h">
+      <SubType>compile</SubType>
+    </None>
     <Compile Include="main.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Uart.cpp">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

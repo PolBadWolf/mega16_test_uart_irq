@@ -5,8 +5,8 @@
  * Author : User
  */ 
 
-#include <avr/io.h>
-
+#include "IncFile1.h"
+// https://microtechnics.ru/mikrokontrollery-avr-uart-ispolzovanie-preryvanij/
 
 int main(void)
 {
